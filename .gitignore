@@ -1,0 +1,10 @@
+# Project
+dist
+
+# Node
+*.log
+node_modules
+
+# Vim
+*.swp
+*.swo

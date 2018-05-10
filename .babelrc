@@ -1,0 +1,13 @@
+{
+  "plugins": [
+    "transform-regenerator",
+    [
+      "transform-react-jsx", {
+        "pragma": "m"
+      }
+    ]
+  ],
+  "presets": [
+    ["env",{"targets": {"browsers": ["last 2 versions", "> 1%"]}}]
+  ]
+}
