@@ -1,13 +1,11 @@
 {
   "plugins": [
-    "transform-regenerator",
+    "@babel/plugin-transform-runtime",
     [
-      "transform-react-jsx", {
-        "pragma": "m"
+      "@babel/plugin-transform-react-jsx", {
+        "pragma": "m",
+        "pragmaFrag": "'['"
       }
     ]
-  ],
-  "presets": [
-    ["env",{"targets": {"browsers": ["last 2 versions", "> 1%"]}}]
   ]
 }
